@@ -17,7 +17,7 @@ Manual analysis of such data is time-consuming, reactive, and prone to missing e
 
 There is a critical need for an intelligent, automated system that can analyze adverse event data, identify emerging risk patterns, and provide explainable insights to support timely decision-making and improve patient safety.
 
-**Objective:** 
+## Objective: 
 
 Build an AI-powered Pharmacovigilance Agent that:
 
@@ -119,6 +119,61 @@ Uses autonomous reasoning to evaluate frequency, severity, and trends, rather th
 **Domain Adaptability**
 
 Easily extendable to new drugs, therapeutic areas, or regulatory datasets with minimal changes to the core pipeline.
+
+## Future Enhancements
+
+- Real-time pharmacovigilance monitoring
+- Integration with regulatory alert systems
+- Multi-language adverse event analysis
+- Interactive dashboards for safety teams
+
+## Data Source
+
+The system uses publicly available pharmacovigilance data, including:
+
+- FDA Adverse Event Reporting System (FAERS) sample datasets
+- Kaggle adverse event datasets
+- Synthetic adverse event narratives (used only for demonstration)
+
+These datasets contain drug names, adverse reactions, seriousness indicators, and narrative descriptions.
+
+## Technology Stack
+
+**Frontend**
+
+React.js for building an interactive user interface
+
+JavaScript (ES6+) for frontend logic
+
+Tailwind CSS for responsive and clean UI design
+
+**Backend**
+
+Python with Flask for REST API development
+
+Flask-CORS for enabling frontend–backend communication
+
+**AI & Data Processing**
+
+Pandas and NumPy for data cleaning and manipulation
+
+Sentence Transformers for text embeddings
+
+Scikit-learn for clustering and signal detection logic
+
+**Data & Storage**
+
+CSV files for adverse event datasets
+
+NumPy files (.npy) for embeddings and clustering outputs
+
+**Tools & Environment**
+
+Node.js and npm for frontend dependency management
+
+Git for version control
+
+Cursor IDE for AI-assisted development
 
 ## Limitations
 
