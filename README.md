@@ -97,3 +97,34 @@ The system ensures reliability through a combination of statistical validation, 
 - LLM-generated summaries are grounded in detected clusters and metrics
 
 - Together, these measures reduce false positives and ensure trustworthy safety signal identification.
+
+## Advantages
+
+**Early Risk Detection**
+
+Identifies emerging drug safety signals at an early stage by analyzing patterns across multiple adverse event reports, helping reduce patient risk.
+
+**Automation at Scale**
+
+Significantly reduces manual workload by automatically clustering, analyzing, and prioritizing adverse events from large and unstructured datasets.
+
+**Explainable Outputs**
+
+Generates clear, human-readable safety summaries using Generative AI, improving transparency, interpretability, and trust for clinical and regulatory teams.
+
+**Agentic Decision-Making**
+
+Uses autonomous reasoning to evaluate frequency, severity, and trends, rather than relying solely on static rules or delayed statistical analysis.
+
+**Domain Adaptability**
+
+Easily extendable to new drugs, therapeutic areas, or regulatory datasets with minimal changes to the core pipeline.
+
+## Limitations
+
+- The accuracy of detected safety signals depends on the quality and completeness of input data.
+- Synthetic or small demo datasets may not fully represent real-world reporting patterns.
+- Unsupervised clustering may occasionally group unrelated adverse events.
+- Rule-based signal scoring requires careful threshold tuning.
+- LLM-generated explanations may vary in wording and require human review for regulatory use.
+
