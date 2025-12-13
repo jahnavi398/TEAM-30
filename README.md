@@ -100,32 +100,25 @@ The system ensures reliability through a combination of statistical validation, 
 
 ## Advantages
 
-**Early Risk Detection**
+- **Early Risk Detection**
 
 Identifies emerging drug safety signals at an early stage by analyzing patterns across multiple adverse event reports, helping reduce patient risk.
 
-**Automation at Scale**
+- **Automation at Scale**
 
 Significantly reduces manual workload by automatically clustering, analyzing, and prioritizing adverse events from large and unstructured datasets.
 
-**Explainable Outputs**
+- **Explainable Outputs**
 
 Generates clear, human-readable safety summaries using Generative AI, improving transparency, interpretability, and trust for clinical and regulatory teams.
 
-**Agentic Decision-Making**
+- **Agentic Decision-Making**
 
 Uses autonomous reasoning to evaluate frequency, severity, and trends, rather than relying solely on static rules or delayed statistical analysis.
 
-**Domain Adaptability**
+- **Domain Adaptability**
 
 Easily extendable to new drugs, therapeutic areas, or regulatory datasets with minimal changes to the core pipeline.
-
-## Future Enhancements
-
-- Real-time pharmacovigilance monitoring
-- Integration with regulatory alert systems
-- Multi-language adverse event analysis
-- Interactive dashboards for safety teams
 
 ## Data Source
 
@@ -139,7 +132,7 @@ These datasets contain drug names, adverse reactions, seriousness indicators, an
 
 ## Technology Stack
 
-**Frontend**
+- **Frontend**
 
 React.js for building an interactive user interface
 
@@ -147,13 +140,13 @@ JavaScript (ES6+) for frontend logic
 
 Tailwind CSS for responsive and clean UI design
 
-**Backend**
+- **Backend**
 
 Python with Flask for REST API development
 
 Flask-CORS for enabling frontend–backend communication
 
-**AI & Data Processing**
+- **AI & Data Processing**
 
 Pandas and NumPy for data cleaning and manipulation
 
@@ -161,13 +154,13 @@ Sentence Transformers for text embeddings
 
 Scikit-learn for clustering and signal detection logic
 
-**Data & Storage**
+- **Data & Storage**
 
 CSV files for adverse event datasets
 
 NumPy files (.npy) for embeddings and clustering outputs
 
-**Tools & Environment**
+- **Tools & Environment**
 
 Node.js and npm for frontend dependency management
 
@@ -182,4 +175,12 @@ Cursor IDE for AI-assisted development
 - Unsupervised clustering may occasionally group unrelated adverse events.
 - Rule-based signal scoring requires careful threshold tuning.
 - LLM-generated explanations may vary in wording and require human review for regulatory use.
+
+## Future Enhancements
+
+- Real-time pharmacovigilance monitoring
+- Integration with regulatory alert systems
+- Multi-language adverse event analysis
+- Interactive dashboards for safety teams
+
 
